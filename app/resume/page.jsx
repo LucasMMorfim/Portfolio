@@ -188,16 +188,16 @@ const Resume = () => {
                           key={index}
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center lg:items-start gap-1"
                         >
-                          <span className="text-accent">{item.duration}</span>
+                          <span className="text-red-500">{item.duration}</span>
                           <h3 className="text-xl max-w-[260px] min-h-8 text-center lg:text-left">
                             {item.position}
                           </h3>
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-red-500"></span>
                             <p className="text-white/60">{item.company}</p>
                           </div>
                           <div>
-                            <ScrollArea className="h-10 text-sm scroll-accent">
+                            <ScrollArea className="h-10 text-sm scroll-red-500">
                               <p>{item.description}</p>
                             </ScrollArea>
                             </div>
@@ -223,16 +223,16 @@ const Resume = () => {
                         key={index}
                         className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center lg:items-start gap-1"
                       >
-                        <span className="text-accent">{item.duration}</span>
+                        <span className="text-red-500">{item.duration}</span>
                         <h3 className="text-xl max-w-[260px] min-h-8 text-center lg:text-left">
                           {item.degree}
                         </h3>
                         <div className="flex items-center gap-3">
-                          <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                          <span className="w-[6px] h-[6px] rounded-full bg-red-500"></span>
                           <p className="text-white/60">{item.institution}</p>
                         </div>
                         <div>
-                          <ScrollArea className="h-10 text-sm scroll-accent">
+                          <ScrollArea className="h-10 text-sm scroll-red-500">
                             <p>{item.description}</p>
                           </ScrollArea>
                           </div>
@@ -259,7 +259,7 @@ const Resume = () => {
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
                             <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                              <div className="text-6xl group-hover:text-red-500 transition-all duration-300">
                                 {skill.icon}
                               </div>
                             </TooltipTrigger>

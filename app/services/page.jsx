@@ -52,13 +52,13 @@ const Services = () => {
                   <Link
                     href={service.href}
                     className="w-[70px] h-[70px] rounded-full bg-white
-                    group-hover:bg-accent transition-all duration-500 flex
+                    group-hover:bg-red-500 transition-all duration-500 flex
                     justify-center items-center hover:-rotate-45"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-red-500 transition-all duration-500">
                   {service.title}
                 </h2>
                 <p className="text-white/60">{service.description}</p>

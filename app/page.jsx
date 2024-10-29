@@ -13,7 +13,7 @@ export default function Home() {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello im <br /> <span className="text-accent">Lucas Morfim</span>
+              Hello im <br /> <span className="text-red-500">Lucas Morfim</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and i am
@@ -29,7 +29,7 @@ export default function Home() {
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
-                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"/>
+                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-red-500 rounded-full flex justify-center items-center text-red-500 text-base hover:bg-red-500 hover:text-primary hover:transition-all duration-500"/>
               </div>
             </div>
           </div>
