@@ -9,7 +9,7 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
  const info = [
   {
     icon: <FaPhoneAlt />,
-    title: "Phone",
+    title: "Fone/Whatsapp",
     description: "+55 (048) 996348279",
   },
   {
@@ -19,8 +19,8 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
   },
   {
     icon: <FaMapMarkedAlt />,
-    title: "Address",
-    description: "Brazil, Santa Catarina - Biguaçu",
+    title: "Endereço",
+    description: "Brasil, Santa Catarina - Biguaçu",
   },
  ];
 
@@ -40,18 +40,18 @@ const Contact = () => {
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl text-red-500">Lets work together</h3>
+              <h3 className="text-4xl text-red-500">Vamos trabalhar juntos!</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                Me mande um email, será um prazer falar com você!
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname"></Input>
-                <Input type="lastname" placeholder="Lastname"></Input>
-                <Input type="email" placeholder="Email address"></Input>
-                <Input type="phone" placeholder="Phone number"></Input>
+                <Input type="firstname" placeholder="Nome"></Input>
+                <Input type="lastname" placeholder="Sobrenome"></Input>
+                <Input type="email" placeholder="Email"></Input>
+                <Input type="phone" placeholder="Telefone"></Input>
               </div>
               <Textarea
-                placeholder="Type your message here"
+                placeholder="Escreva sua mensagem aqui..."
                 className="h-[200px]"
               >
               </Textarea>

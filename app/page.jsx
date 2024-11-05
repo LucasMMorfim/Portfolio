@@ -13,11 +13,10 @@ export default function Home() {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello im <br /> <span className="text-red-500">Lucas Morfim</span>
+              Olá, eu sou<br /> <span className="text-red-500">Lucas Morfim</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I excel at crafting elegant digital experiences and i am
-              proficient in various programming languages and technologies.
+              Sou um desenvolvedor web júnior com experiência em criação de interfaces funcionais e responsivas. Apaixonado por transformar ideias em soluções digitais.
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button

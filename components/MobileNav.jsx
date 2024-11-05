@@ -8,23 +8,19 @@ import Link from "next/link";
 
 const links = [
   {
-    name: 'home',
+    name: 'Inicio',
     path: '/',
   },
   {
-    name: 'services',
-    path: '/services',
-  },
-  {
-    name: 'resume',
+    name: 'Sobre mim',
     path: '/resume',
   },
   {
-    name: 'work',
+    name: 'Projetos',
     path: '/work',
   },
   {
-    name: 'contact',
+    name: 'contato',
     path: '/contact',
   },
 ]
