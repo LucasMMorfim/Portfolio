@@ -29,8 +29,7 @@ import {
 
  const about = {
   title: "Sobre mim",
-  description: 
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit Odio temporibus recusandae laboriosam voluptate et! Eius, tempora quidem!",
+  
  
   info: [
     {
@@ -214,7 +213,7 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-56 py-6 px-10 rounded-xl flex flex-col justify-center lg:items-start gap-1"
+                          className="bg-[#232329] h-96 py-3 px-10 rounded-xl flex flex-col lg:items-start gap-1"
                         >
                           <span className="text-red-500">{item.duration}</span>
                           <h3 className="text-xl max-w-[260px] min-h-8 text-center lg:text-left">
@@ -225,10 +224,8 @@ const Resume = () => {
                             <p className="text-white/60">{item.company}</p>
                           </div>
                           <div>
-                            <ScrollArea className="h-14 text-sm scroll-red-500">
-                              <p>{item.description}</p>
-                            </ScrollArea>
-                            </div>
+                            <p>{item.description}</p>
+                          </div>
                         </li>
                       )
                     })}
@@ -249,7 +246,7 @@ const Resume = () => {
                     return (
                       <li
                         key={index}
-                        className="bg-[#232329] h-56 py-6 px-10 rounded-xl flex flex-col justify-center lg:items-start gap-1"
+                        className="bg-[#232329] h-92 py-3 px-10 rounded-xl flex flex-col lg:items-start gap-1"
                       >
                         <span className="text-red-500">{item.duration}</span>
                         <h3 className="text-xl max-w-[260px] min-h-8 text-center lg:text-left">
@@ -260,10 +257,8 @@ const Resume = () => {
                           <p className="text-white/60">{item.institution}</p>
                         </div>
                         <div>
-                          <ScrollArea className="h-14 text-sm scroll-red-500">
-                            <p>{item.description}</p>
-                          </ScrollArea>
-                          </div>
+                          <p>{item.description}</p>
+                        </div>
                       </li>
                     )
                   })}
@@ -280,7 +275,7 @@ const Resume = () => {
                     {skills.description}
                   </p>
                 </div>
-                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+                <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] pb-12">
                   {skills.skillList.map((skill, index) => {
                     return (
                       <li key={index}>
@@ -306,8 +301,24 @@ const Resume = () => {
             <TabsContent value="about" className="w-full text-center xl:text-left">
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
+                <div className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p>
+                  - Olá, sou Lucas, tenho 22 anos, sou de Biguaçu, Santa Catarina. Como uma pessoa com deficiência (PCD), minha jornada no mundo da tecnologia tem sido incrível, e estou sempre em busca de aprendizado e crescimento.`
+                </p><br/>
+                <p>
+                  - Estou aprimorando minhas habilidades em tecnologias como Node.js, React, Next.js, Tailwind CSS, REST APIs e gerenciamento de bancos de dados. Usando-as para criar soluções inovadoras e fáceis de usar.
+                </p><br/>
+                <p>
+                  - Possuo inglês avançado, o que me permite participar ativamente de reuniões e me envolver em um ambiente internacional.
+                </p><br/>
+                <p>
+                  - Estou buscando oportunidades desafiadoras para aplicar e expandir meu conhecimento, contribuindo significativamente para projetos que impactam positivamente a sociedade. Se você está procurando um desenvolvedor apaixonado e dedicado, estou pronto para fazer a diferença!
+                </p><br/>
+                <p>
+                  - Sempre aberto a novas oportunidades e colaborações. Vamos construir algo incrível juntos!
+                </p>
+                </div>
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0 pb-12">
                   {about.info.map((item, index) => {
                     return (
                       <li
